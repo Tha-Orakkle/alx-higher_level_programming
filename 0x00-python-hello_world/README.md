@@ -15,3 +15,4 @@ Files | Descriptions
 [9-easter_egg.py](./9-easter_egg.py) | Python script that prints "The Zen of Python", by TimPeters, followed by a new line
 [10-check_cycle.c](./10-check_cycle.c) | C program that checks if a singly linked list has a cycle in it
 [lists.h](./lists.h) | header file for the C program
+[100-write.py](./100-write.py) | Python script that prints a string with the function write from the sys module
