@@ -6,4 +6,5 @@ Files | Descriptions
 [1-last_digit.py](./1-last_digit.py) | Python script that prints the last digit of a given random number
 [2-print_alphabet.py](./2-print_alphabet.py) | prints the ASCII alphabet, in lowercase, not followed by a new line.
 [3-print_alphabt.py](./3-print_alphabt.py) | prints the ASCII alphabet except q and e, in lowercase, not followed by a new line.
+[4-print_hexa.py](./4-print_hexa.py) | prints all numbers from 0 to 98 in decimal and in hexadecimal
 [5-print_comb2.py](./5-print_comb2.py) | prints numbers from 0 to 99
