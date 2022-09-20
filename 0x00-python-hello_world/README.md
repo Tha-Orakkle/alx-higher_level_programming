@@ -16,3 +16,4 @@ Files | Descriptions
 [10-check_cycle.c](./10-check_cycle.c) | C program that checks if a singly linked list has a cycle in it
 [lists.h](./lists.h) | header file for the C program
 [100-write.py](./100-write.py) | Python script that prints a string with the function write from the sys module
+[101-compile](./101-compile) | Shell script that compiles a Python script file
