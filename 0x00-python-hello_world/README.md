@@ -13,3 +13,5 @@ Files | Descriptions
 [7-edges.py](./7-edges.py) | Python script that slices and prints a string
 [8-concat_edges.py](./8-concat_edges.py) | Python script that prints `object-oriented programming with Python`, followed by a new line
 [9-easter_egg.py](./9-easter_egg.py) | Python script that prints "The Zen of Python", by TimPeters, followed by a new line
+[10-check_cycle.c](./10-check_cycle.c) | C program that checks if a singly linked list has a cycle in it
+[lists.h](./lists.h) | header file for the C program
