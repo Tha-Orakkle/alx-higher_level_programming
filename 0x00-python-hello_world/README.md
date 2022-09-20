@@ -11,3 +11,4 @@ Files | Descriptions
 [5-print_string.py](./5-print_string.py) | prints a string 3 times and the first 9 characters of the string, followed by a new line
 [6-concat.py](./6-concat.py) | prints `Welcome to Holberton School!`
 [7-edges.py](./7-edges.py) | slices and prints a string
+[8-concat_edges.py](./8-concat_edges.py) | prints `object-oriented programming with Python`
