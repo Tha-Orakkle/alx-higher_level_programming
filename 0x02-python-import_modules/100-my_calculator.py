@@ -10,15 +10,14 @@ if __name__ == "__main__":
     a = int(sys.argv[1])
     sign = sys.argv[2]
     b = int(sys.argv[3])
-    match str(sign):
-        case "+":
-            print("{} {} {} = {}".format(a, sign, b, add(a, b)))
-        case "-":
-            print("{} {} {} = {}".format(a, sign, b, sub(a, b)))
-        case "*":
-            print("{} {} {} = {}".format(a, sign, b, mul(a, b)))
-        case "/":
-            print("{} {} {} = {}".format(a, sign, b, div(a, b)))
-        case _:
-            print("Unknown operator. Available operators: +, -, * and /")
-            exit(1)
+    if sign == "+":
+        print("{} {} {} = {}".format(a, sign, b, add(a, b)))
+    elif sign == "-":
+        print("{} {} {} = {}".format(a, sign, b, sub(a, b)))
+    elif sign == "*":
+        print("{} {} {} = {}".format(a, sign, b, mul(a, b)))
+    elif sign == "/":
+        print("{} {} {} = {}".format(a, sign, b, div(a, b)))
+    else:
+        print("Unknown operator. Available operators: +, -, * and /")
+        exit(1)
