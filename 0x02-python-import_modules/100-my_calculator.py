@@ -10,7 +10,7 @@ if __name__ == "__main__":
     a = int(sys.argv[1])
     sign = sys.argv[2]
     b = int(sys.argv[3])
-    match sign:
+    match str(sign):
         case "+":
             print("{} {} {} = {}".format(a, sign, b, add(a, b)))
         case "-":
