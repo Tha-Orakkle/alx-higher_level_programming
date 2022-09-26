@@ -11,3 +11,4 @@ File | Descriptions
 [5-no_c.py](./5-no_c.py) | removes all characters c and C from a string
 [6-print_matrix_integer.py](./6-print_matrix_integer.py) | prints a matrix of integers
 [7-add_tuple.py](./7-add_tuple.py) | adds 2 tuple
+[8-multiple_returns.py](./8-multiple_returns.py) | returns a tuple with the length of a string and its first character
