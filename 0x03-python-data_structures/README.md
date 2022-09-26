@@ -10,3 +10,4 @@ File | Descriptions
 [4-new_in_list.py](./4-new_in_list.py) | eplaces an element in a list at a specific position without modifying the original list
 [5-no_c.py](./5-no_c.py) | removes all characters c and C from a string
 [6-print_matrix_integer.py](./6-print_matrix_integer.py) | prints a matrix of integers
+[7-add_tuple.py](./7-add_tuple.py) | adds 2 tuple
