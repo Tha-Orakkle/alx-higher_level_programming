@@ -13,3 +13,6 @@ File | Descriptions
 [7-add_tuple.py](./7-add_tuple.py) | adds 2 tuple
 [8-multiple_returns.py](./8-multiple_returns.py) | returns a tuple with the length of a string and its first character
 [9-max_integer.py](./9-max_integer.py) | finds the biggest integer of a list
+[10-divisible_by_2.py](./10-divisible_by_2.py) | finds all multiples of 2 in a list
+[11-delete_at.py](.11-delete_at.py) | deletes the item at a specific position in a list
+[12-switch.py](.12-switch.py) | switch value of a and b
