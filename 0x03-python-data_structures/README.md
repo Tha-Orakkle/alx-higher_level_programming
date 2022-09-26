@@ -16,3 +16,8 @@ File | Descriptions
 [10-divisible_by_2.py](./10-divisible_by_2.py) | finds all multiples of 2 in a list
 [11-delete_at.py](.11-delete_at.py) | deletes the item at a specific position in a list
 [12-switch.py](.12-switch.py) | switch value of a and b
+[13-is_palindrome.c](./13-is_palindrome.c) | checks if a singly linked list is a palindrome (written in C)
+[lists.h](./lists.h) | header file for C program
+[13-main.c](./13-main.c) | entry point for the C-program
+[linked_lists.c](./linked_lists.c) | helper file for [13-main.c](./13-main.c)
+
