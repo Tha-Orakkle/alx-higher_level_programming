@@ -20,4 +20,4 @@ File | Descriptions
 [lists.h](./lists.h) | header file for C program
 [13-main.c](./13-main.c) | entry point for the C-program
 [linked_lists.c](./linked_lists.c) | helper file for [13-main.c](./13-main.c)
-
+[100-print_python_list_info.c](/100-print_python_list_info.c) | C function that prints some basic info about Python lists
