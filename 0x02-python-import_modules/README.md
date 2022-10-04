@@ -12,4 +12,5 @@ Files | Descriptions
 [100-my_calculator.py](./100-my_calculator.py) | Python program that imports all functions from the file calculator_1.py and handles basics operations
 [101-easy_print.py](./101-easy_print.py) | Python program that prints #pythoniscool, followed by a new line, in the standard output
 [i_am_a_demigod.py](./i_am_a_demigod.py) | prints #pythoniscool without using print
+[102-magic_calculation.py](./102-magic_calculation.py) | Python function def magic_calculation(a, b): that does exactly the same as a given Python bytecode
 [103-fast_alphabet.py](./103-fast_alphabet.py) | prints the alphabet in uppercase
