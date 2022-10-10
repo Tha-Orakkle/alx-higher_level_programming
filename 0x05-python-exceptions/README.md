@@ -7,3 +7,5 @@ Files | Descriptions
 [2-safe_print_list_integers.py](./2-safe_print_list_integers.py) |  prints the first x elements of a list and only integers"
 [3-safe_print_division.py](./3-safe_print_division.py) | divides 2 integers and prints the result
 [4-list_division.py](./4-list_division.py) |  divides element by element 2 lists
+[5-raise_exception.py](./5-raise_exception.py) | raises a type exception
+[6-raise_exception_msg.py](./6-raise_exception_msg.py) | raises a name xception with a message
