@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def raise_exception_msg(message=""):
+def safe_print_integer_err(value):
     import sys
     try:
         print("{:d}".format(value))
