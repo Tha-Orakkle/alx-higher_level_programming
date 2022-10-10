@@ -9,3 +9,4 @@ Files | Descriptions
 [4-list_division.py](./4-list_division.py) |  divides element by element 2 lists
 [5-raise_exception.py](./5-raise_exception.py) | raises a type exception
 [6-raise_exception_msg.py](./6-raise_exception_msg.py) | raises a name xception with a message
+[100-safe_print_integer_err.py](./100-safe_print_integer_err.py) | prints an integer
