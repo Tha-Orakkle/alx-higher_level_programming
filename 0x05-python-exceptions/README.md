@@ -11,3 +11,4 @@ Files | Descriptions
 [6-raise_exception_msg.py](./6-raise_exception_msg.py) | raises a name xception with a message
 [100-safe_print_integer_err.py](./100-safe_print_integer_err.py) | prints an integer
 [101-safe_function.py](./101-safe_function.py) | executes a function safely
+[102-magic_calculation.py](./102-magic_calculation.py) | Python bytecode translated from its bytecode
