@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-class Square:
-    """An empty square class."""
+class Suare:
+    """Represents an empy square."""
     pass
