@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+A module that contains a square class
+"""
 class Suare:
-    """Represents an empy square."""
+    """An empty square."""
     pass
