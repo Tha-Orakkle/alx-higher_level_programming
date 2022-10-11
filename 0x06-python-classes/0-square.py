@@ -2,6 +2,8 @@
 """
 A module that contains a square class
 """
+
+
 class Suare:
     """An empty square."""
     pass
