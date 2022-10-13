@@ -12,7 +12,7 @@ class MagicClass:
             raise TypeError("radius must be a number")
         self._MagicClass__radius = radius
 
-        def area(self):
+    def area(self):
             """finds the area"""
             return self._MagicClass__radius ** 2 * math.pi
 
