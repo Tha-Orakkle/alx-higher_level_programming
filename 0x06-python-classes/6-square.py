@@ -9,15 +9,18 @@ class Square:
     Private instance attribute size:
         - property def size(self)
         - property setter def size(self, value)
+    Private instance attribute: position:
+        - property def position(self)
+        - property setter def position(self, value)
     Instantiation with optional size
     Public instance method def area(self)
     Public instance method def my_print(self)
 
     """
-    def __iniit__(self, size=0, position=(0, 0)):
+    def __init__(self, size=0, position=(0, 0)):
         """initializes the data"""
         self.__size = size
-        self.position = position
+        self.__position = position
 
     @property
     def size(self):
