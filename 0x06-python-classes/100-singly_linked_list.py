@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+A module for class singlyLinkedList and
+class Node
+"""
+
+
 class Node:
     """Node of a singly linked list.
     Private instance attribute: data:
