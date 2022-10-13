@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 class Node:
     """Node of a singly linked list.
     Private instance attribute: data:
@@ -19,7 +17,7 @@ class Node:
 
     @property
     def data(self):
-        """Retrieves the data from the node."""
+        """Retrieves the data of the node"""
         return self.__data
 
     @data.setter
@@ -31,12 +29,12 @@ class Node:
 
     @property
     def next_node(self):
-        """Retrieves the next_node."""
+        """Retrieves the next node"""
         return self.__next_node
 
     @next_node.setter
     def next_node(self, value):
-        """Sets the next_node."""
+        """Sets the next node"""
         if not isinstance(value, Node) and value is not None:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
@@ -55,13 +53,13 @@ class SinglyLinkedList:
 
     def __str__(self):
         """For the print statement in the main file."""
-        my_str = ""
-        node = self.head
-        while node:
-            my_str += str(node.data)
-            my_str += '\n'
-            node = node.next_node
-        return my_str[:-1]
+        string = ""
+        temp = self.head
+        while temp:
+            string += str(temp.data)
+            string += '\n'
+            temp = temp.next_node
+        return string[:-1]
 
     def sorted_insert(self, value):
         """Inserts a node in a sorted linked list."""
@@ -76,8 +74,8 @@ class SinglyLinkedList:
             self.head = new_node
             return
 
-        node = self.head
-        while node.next_node and node.next_node.data < value:
-            node = node.next_node
-        new_node.next_node = node.next_node
-        node.next_node = new_node
+        temp = self.head
+        while temp.next_node and temp.next_node.data < value:
+            temp = temp.next_node
+        new_node.next_node = temp.next_node
+        temp.next_node = new_node
