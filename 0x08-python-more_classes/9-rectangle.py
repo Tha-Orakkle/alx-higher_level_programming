@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 8-rectangle
+Module 9-rectangle
 defines a class Rectangle
 """
 
@@ -117,3 +117,13 @@ class Rectangle:
             return rect_1
         else:
             return rect_2
+
+    @classmethod
+    def square(cls, size=0):
+        """Creates a new Rectangle instance with width == height == size
+        Args:
+            size: size for the new rectangle
+        Returns:
+            The new Rectangle instance
+        """
+        return cls(size, size)
