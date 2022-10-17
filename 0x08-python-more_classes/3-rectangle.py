@@ -81,4 +81,3 @@ class Rectangle:
                 string += "#"
             string += "\n"
         return string[:-1]
-

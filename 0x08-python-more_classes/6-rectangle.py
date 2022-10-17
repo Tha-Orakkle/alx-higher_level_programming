@@ -45,7 +45,6 @@ class Rectangle:
         print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
 
-
     @property
     def width(self):
         """Retrieves the width of a Rectangle instance"""
@@ -96,5 +95,3 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__height + self.__width)
-
-
