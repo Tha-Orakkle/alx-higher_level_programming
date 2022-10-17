@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
-Module 5-rectangle
+Module 6-rectangle
 defines a class Rectangle
 """
 
 
 class Rectangle:
     """Rectangle class defined by width and height."""
+
+    number_of_instances = 0
 
     def __init__(self, width=0, height=0):
         """Initialises a class rectangle instance.
@@ -17,6 +19,32 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+        Rectangle.number_of_instances += 1
+
+    def __str__(self):
+        """Returns an informal and nicely printable string representation
+        of a Rectangle instance, filled with the '#' character.
+        """
+        if self.__width == 0 or self.__height == 0:
+            return ""
+        string = ""
+        for row in range(self.__height):
+            for col in range(self.__width):
+                string += "#"
+            string += "\n"
+        return string[:-1]
+
+    def __repr__(self):
+        """Return a string representation of a Rectangle instance
+        that is able to recreate a new instance by using eval()
+        """
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
+    def __del__(self):
+        """deletes a Rectangle instance"""
+        print("Bye rectangle...")
+        Rectangle.number_of_instances -= 1
+
 
     @property
     def width(self):
@@ -69,25 +97,4 @@ class Rectangle:
             return 0
         return 2 * (self.__height + self.__width)
 
-    def __str__(self):
-        """Returns an informal and nicely printable string representation
-        of a Rectangle instance, filled with the '#' character.
-        """
-        if self.__width == 0 or self.__height == 0:
-            return ""
-        string = ""
-        for row in range(self.__height):
-            for col in range(self.__width):
-                string += "#"
-            string += "\n"
-        return string[:-1]
 
-    def __repr__(self):
-        """Return a string representation of a Rectangle instance
-        that is able to recreate a new instance by using eval()
-        """
-        return "Rectangle({}, {})".format(self.__width, self.__height)
-
-    def __del__(self):
-        """deletes a Rectangle instance"""
-        print("Bye rectangle...")

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 2-rectangle
+Module 4444-rectangle
 defines a class Rectangle
 """
 
