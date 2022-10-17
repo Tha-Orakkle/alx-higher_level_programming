@@ -4,6 +4,7 @@ Module Rectangle
 An empty class Rectangle
 """
 
+
 class Rectangle:
     """an empty class Rectangle"""
     pass
