@@ -20,20 +20,20 @@ def matrix_divided(matrix, div):
 
     if type(matrix) != list or len(matrix) == 0:
         raise TypeError("matrix must be a matrix (list of lists) " +
-                        "of integers/float")
+                        "of integers/floats")
 
     length = len(matrix[0])
 
     for row in matrix:
         if type(row) != list or len(row) == 0 or length == 0:
             raise TypeError("matrix must be a matrix (list of lists) " +
-                            "of integers/float")
+                            "of integers/floats")
         if len(row) != length:
             raise TypeError("Each row of the matrix must have the same size")
         for col in row:
             if type(col) not in [int, float]:
                 raise TypeError("matrix must be a matrix (list of lists) " +
-                                "of integers/float")
+                                "of integers/floats")
 
     new_matrix = [[round(col / div, 2) for col in row] for row in matrix]
 
