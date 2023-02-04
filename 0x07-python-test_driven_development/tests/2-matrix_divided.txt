@@ -57,6 +57,17 @@ Now use it:
 	TypeError: matrix must be a matrix (list of lists) of integers/float
 
 ::
+	>>> matrix_divided([[3, "9"], [15, 3]], 3)
+	Traceback (most recent call last):
+	TypeError: matrix must be a matrix (list of lists) of integers/float
+
+::
+	>>> matrix_divided("not a list", 3)
+	Traceback (most recent call last):
+	TypeError: matrix must be a matrix (list of lists) of integers/float
+
+
+::
 	>>> matrix_divided([[16, 29]])
 	Traceback (most recent call last):
 	TypeError: matrix_divided() missing 1 required positional argument: 'div'
