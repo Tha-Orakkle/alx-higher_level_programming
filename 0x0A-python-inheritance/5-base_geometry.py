@@ -2,6 +2,6 @@
 """AN empty class"""
 
 
-class BasGeometry:
+class BaseGeometry:
     """BaseGeometry class"""
     pass
