@@ -3,3 +3,4 @@
 
 Files | Descriptions
 ----- | ------------
+[0-read_file.py](./0-read_file.py) | Function that reads and prints a text file to the stdout
