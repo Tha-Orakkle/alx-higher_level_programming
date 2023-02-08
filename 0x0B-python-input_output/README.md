@@ -9,3 +9,4 @@ Files | Descriptions
 [3-to_json_string.py](./3-to_json_string.py) | returns the JSON representation of an object (string)
 [4-from_json_string.py](./4-from_json_string.py) | returns an object (Python data structure) represented by a JSON string
 [5-save_to_json_file.py](./5-save_to_json_file.py) | Writes an Object to a text file using JSON representation
+[6-load_from_json_file.py](./6-load_from_json_file.py) | Creates an Object from a JSON file
