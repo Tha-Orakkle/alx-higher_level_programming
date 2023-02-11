@@ -7,9 +7,7 @@ class Rectangle(Base):
     """A Rectangle class"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-
-        """
-        Initialize a new Rectangle.
+        """Initialize a new Rectangle.
 
         Args:
             width (int): The width of the new Rectangle.
@@ -23,7 +21,6 @@ class Rectangle(Base):
             TypeError: If either of x or y is not an int.
             ValueError: If either of x or y < 0.
         """
-
         self.width = width
         self.height = height
         self.x = x
@@ -64,7 +61,7 @@ class Rectangle(Base):
         return self.__x
 
     @x.setter
-    def width(self, value):
+    def x(self, value):
         """sets the value x"""
         if type(value) != int:
             raise TypeError("x must be an integer")
@@ -85,3 +82,7 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        """Returns the area value of the Rectangle"""
+        return self.__width * self.__height
