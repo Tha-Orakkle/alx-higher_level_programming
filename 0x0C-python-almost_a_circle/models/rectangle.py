@@ -86,3 +86,14 @@ class Rectangle(Base):
     def area(self):
         """Returns the area value of the Rectangle"""
         return self.__width * self.__height
+
+    def display(self):
+        """prints the rectangle using the # character"""
+        for rows in range(self.__height):
+            print("#" * self.__width)
+
+    def __str__(self):
+        """return the print() and str() representation of the Rectangle."""
+        return ("[Rectangle] ({}) {}/{} - {}/{}"
+                .format(self.id, self.__x, self.__y,
+                        self.__width, self.__height))
