@@ -104,6 +104,7 @@ class Rectangle(Base):
                 - 3rd argument represent height attribute
                 - 4th argument represents x attribute
                 - 5th argument represents y attribute
+            **kwargs (dict): New key/value pairs of attributes.
         """
         if args and len(args) != 0:
             a = 0
@@ -125,7 +126,6 @@ class Rectangle(Base):
         else:
             for k in kwargs:
                 setattr(self, k, kwargs.get(k))
-
 
     def __str__(self):
         """return the print() and str() representation of the Rectangle."""
