@@ -94,7 +94,7 @@ class Rectangle(Base):
             print(" " * self.__x, end="")
             print("#" * self.__width)
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """Re-assigns an argument to each attribute
 
         Args:
@@ -122,6 +122,10 @@ class Rectangle(Base):
                 elif a == 4:
                     self.y = arg
                 a += 1
+        else:
+            for k in kwargs:
+                setattr(self, k, kwargs.get(k))
+
 
     def __str__(self):
         """return the print() and str() representation of the Rectangle."""
