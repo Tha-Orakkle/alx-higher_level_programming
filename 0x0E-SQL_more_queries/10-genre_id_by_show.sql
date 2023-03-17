@@ -1,4 +1,5 @@
 -- Lists all shows contained in hbtn_0d_tvshows that have at least one genre linked.
+-- lists all rows of a database that have one column in common
 SELECT tv_shows.title, tv_show_genres.genre_id
 FROM tv_shows, tv_show_genre
 ON tv_shows.id = tv_show_genres.show_id
