@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const x = parseInt(process.argv[2]);
 if (isNaN(x)) {
-  console.log('Missing Size');
+  console.log('Missing size');
 } else {
   for (let i = 0; i < x; i++) {
     let row = '';
