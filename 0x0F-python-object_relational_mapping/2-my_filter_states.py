@@ -11,7 +11,7 @@ if __name__ == "__main__":
                          db=sys.argv[3], port=3306)
     cur = db.cursor()
     cur.execute("SELECT * FROM states \
-    WHERE name COLLATE Latin1_General_CS_AS = '{}' \
+    WHERE name COLLATE utf8mb4_bin = '{}' \
     ORDER BY states.id ASC;".format(sys.argv[4]))
 
     states = cur.fetchall()
