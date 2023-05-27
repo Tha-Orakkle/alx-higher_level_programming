@@ -12,7 +12,13 @@
   * Usage: `./1-filter_states.py <mysql username> <mysql password> <database nam    e>`.
   * Results are sorted in ascending order by `states.id`.
 
-* **1. Filter states**
+* **2. Filter states by user input**
   * [2-my_filter_states.py](./2-my_filter_states.py): python scripts that lists all the states with a name that matches the argument passed.
   * Usage: `./2-my_filter_states.py <mysql username> <mysql password> <database nam    e>`.
+  * Results are sorted in ascending order by `states.id`.
+
+* **3. SQL Injection...**
+  * [3-my_safe_filter_states.py](./3-my_safe_filter_states.py): python scripts that lists all the states with a name that matches the argument passed.
+  * Usage: `./2-my_filter_states.py <mysql username> <mysql password> <database nam    e>`.
+  * The query is safe from MySQL injections
   * Results are sorted in ascending order by `states.id`.
