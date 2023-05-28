@@ -18,6 +18,6 @@ if __name__ == "__main__":
     cur.execute(sql_query, (user_arg,))
     cities = cur.fetchall()
 
-    print(", ".join(city for city in cities))
+    print(", ".join(city[0] for city in cities))
     cur.close()
     db.close()
