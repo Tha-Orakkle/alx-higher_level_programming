@@ -12,7 +12,8 @@ if __name__ == "__main__":
 
     cur = db.cursor()
 
-    sql_query = "SELECT * FROM states WHERE name = '{}' \
+    sql_query = "SELECT * FROM states \
+                 WHERE name = %s \
                  ORDER BY states.id ASC;"
     user_arg = sys.argv[4]
     cur.execute(sql_query, (user_arg,))
