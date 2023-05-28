@@ -30,3 +30,10 @@
   <database name>`.
   * Results are ordered by ascending `cities.id`.
 
+* **5. All cities by state**
+  * [5-filter_cities.py](./5-filter_cities.py): Python script that uses MySQLdb
+  to list all cities of a given state in the database `hbtn_0e_4_usa`.
+  * Usage: `./5-filter_cities.py <mysql username> <mysql password>
+  <database name>`.
+  * Results are sorted by ascending `cities.id`.
+
