@@ -22,3 +22,11 @@
   * Usage: `./2-my_filter_states.py <mysql username> <mysql password> <database nam    e>`.
   * The query is safe from MySQL injections
   * Results are sorted in ascending order by `states.id`.
+
+* **4. Cities by states**
+  * [4-cities_by_state.py](./4-cities_by_state.py): Python script that uses
+  MySQLdb to list all cities from the database `hbtn_0e_4_usa`.
+  * Usage: `./4-cities_by_state.py <mysql username> <mysql password>
+  <database name>`.
+  * Results are ordered by ascending `cities.id`.
+
