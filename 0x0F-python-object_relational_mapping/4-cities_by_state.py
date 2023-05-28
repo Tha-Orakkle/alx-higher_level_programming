@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-LIsts all cities from the database hbtn_0e_4_usa
+Lists all cities in the database hbtn_0e_4_usa
 """
 
 import sys
@@ -11,8 +11,8 @@ if __name__ == "__main__":
                          db=sys.argv[3], port=3306)
     cur = db.cursor()
 
-    cur.execute("SELECT c.id, c.name, s.name \
-                FROM cities c JOIN state s ON c.state_id = s.id;")
+    cur.execute("SELECT cities.id, cities.name, states.name \
+    FROM cities JOIN states ON cities.state_id = states.id;")
     cities = cur.fetchall()
 
     for city in cities:
