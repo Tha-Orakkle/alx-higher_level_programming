@@ -1,5 +1,8 @@
 # Python - Object-relational mapping
 
+## Folders :page_with_curl:
+* [sql_files](./sql_files): Folder containing all sql files used in the course of the project
+
 ## Tasks :page_with_curl:
 
 * **0. Get all states**
