@@ -9,13 +9,15 @@ from sqlalchemy.orm import sessionmaker
 from model_state import Base, State
 
 
-engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.
-                       format(sys.argv[1], sys.argv[2], sys.argv[3]), pool_pre_ping=True)
-Session = sessionmaker(bind=engine)
-session = Session()
+if __name__ == "__main__":
 
-new_state = State(name="Louisiana")
-session.add(new_state)
-session.commit()
+    engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'.
+                           format(sys.argv[1], sys.argv[2], sys.argv[3]), pool_pre_ping=True)
+    Session = sessionmaker(bind=engine)
+    session = Session()
 
-print(new_state.id)
+    new_state = State(name="Louisiana")
+    session.add(new_state)
+    session.commit()
+
+    print(new_state.id)
