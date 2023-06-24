@@ -4,7 +4,7 @@ lists all the City objects from the database hbtn_0e_101_usa
 """
 
 from sqlalchemy import create_engine
-from sqlalchmey.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker
 from relationship_state import State, Base
 from relationship_city import City
 import sys
