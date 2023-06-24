@@ -23,4 +23,3 @@ if __name__ == "__main__":
         print("{}: {}".format(row.id, row.name))
         for cty in row.cities:
             print("    {}: {}".format(cty.id, cty.name))
-
