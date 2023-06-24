@@ -22,4 +22,5 @@ if __name__ == "__main__":
     for row in result:
         print("{}: {}".format(row.id, row.name))
         for cty in row.cities:
-            print("     {}: {}".format(cty.id, cty.name))
+            print("    {}: {}".format(cty.id, cty.name))
+
