@@ -1,3 +1,3 @@
 #!/bin/bash
 # takes in a URL as an argument, sends a POST request to the URL, and displays the body of the response
-curl -s "$1" -X POST -d "email=test@gmail.com&subject=I will always be here for PLD"
+curl -sL -X PUT -d "You got me!" http://0.0.0.0:5000/catch_me | grep "You got me!" | cut -d "'" -f 2 | cut -c -11
