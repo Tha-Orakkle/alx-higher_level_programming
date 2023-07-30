@@ -7,4 +7,3 @@ with urllib.request.urlopen("https://alx-intranet.hbtn.io/status") as resp:
     result = "Body response:\n\t- type: {}\n\t- content: {}\n\t"
     result += "- utf8 content: {}"
     print(result.format(type(data), data, data.decode("utf-8")))
-
